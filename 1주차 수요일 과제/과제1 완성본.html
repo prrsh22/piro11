@@ -1,0 +1,97 @@
+<head>
+    <title>Instagram</title>
+
+    <style>
+        *{
+            margin:0; padding:0;
+        }
+        #wrap{width:700px;margin:0 auto;overflow:hidden;background-color: #fafafa;}
+        #content{overflow:hidden;}
+
+        #left,#right{float:left;width:300px;margin:30px 10px 80px;text-align:center;}
+        a{text-decoration:none;}
+
+        #left img{width:300px;}
+
+        #right ul{border:1px solid lightgray;height:300px;background:#ffffff;margin:5px 0;}
+        ul li{list-style:none;}
+        #right ul li:not(#title){font-size:0.8em;height:30px;line-height:30px;}
+        #title{font-family:billabong;font-size:50px;padding:28px 0;}
+
+        #login{background: #65b9ff;border-radius:7px 7px;color:#ffffff; width:250px;margin:0 24px;opacity:0.5;}
+
+        p{font-size:0.8em;}
+
+        input{background: #fafafa; color: #d7d7d7;width:250px;}
+        #fb{height:1em;}
+        #account{height:50px;margin:10px 0; border:1px solid lightgray;background:#ffffff;
+        line-height:50px;font-size:0.8em;}
+        #signup{color: #65b9ff;font-weight:bold;}
+
+        #apple,#galaxy{height:2em;margin:10px 0 0 0;}
+
+        #footer{overflow:hidden;}
+
+        #footer ul li{margin:0 10px 20px 0;float:left; font-size:0.5em;color:navy;}
+
+        #footer ul li:last-child{float:right;}
+    </style>
+</head>
+
+<body>
+<div id="wrap">
+    <div id="content">
+        <div id="left">
+            <img src="왼쪽.png">
+        </div>
+
+        <div id="right">
+            <ul>
+                <li id="title">Instagram</li>
+                <li><input type="text" value="전화번호, 사용자 이름 또는 이메일"/></li>
+                <li><input type="text" value="비밀번호"/></li>
+                <li id="login">로그인</li>
+                <li>-------------------- 또는 -------------------</li>
+                <li><a href="https://m.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed
+                _site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3
+                Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%25
+                2Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221je0e9k1r17uebsrd1hw131vbc61ngmx7fer07ik
+                5wpox34ndv7w%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26respons
+                e_type%3Dcode%252Cgranted_scopes%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D12e092df-1179-4b28-86f
+                c-91ee8e8f6051&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_de
+                nied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26stat
+                e%3D%257B%2522fbLoginKey%2522%253A%25221je0e9k1r17uebsrd1hw131vbc61ngmx7fer07ik5wpox34ndv7w%2522%252C
+                %2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=touch&locale=ko_KR&refsrc=http%3A
+                %2F%2Fwww.instagram.com%2F&_rdr"><img src="페이스북.jpeg" id="fb">Facebook으로 로그인</a></li>
+                <li><a href="https://www.instagram.com/accounts/password/reset/">비밀번호를 잊으셨나요?</a></li>
+            </ul>
+
+            <p id="account">계정이 없으신가요? <a href="https://www.instagram.com/accounts/emailsignup/" id="signup">가입하기</a></p>
+
+            <p>앱을 다운로드하세요.</p>
+
+            <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank"><img src="애플.png" id="apple"/></a>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=
+            utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DW07WigALAAEjO4fIXNA
+            1IzBv5X8z%26utm_content%3Dlo%26utm_medium%3Dbadge" target="_blank"><img src="갤럭시.png" id="galaxy"/></a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <ul>
+            <li>INSTAGRAM 정보</li>
+            <li>지원</li>
+            <li>홍보 센터</li>
+            <li>API</li>
+            <li>채용 정보</li>
+            <li>개인정보처리방침</li>
+            <li>약관</li>
+            <li>디렉터리</li>
+            <li>프로필</li>
+            <li>해시태그</li>
+            <li>언어</li>
+            <li id="cp">©2019 INSTAGRAM</li>
+        </ul>
+    </div>
+</div>
+</body>
